@@ -1,0 +1,1 @@
+A mini project which is adding items to the list and allows you to copy them in CSV format. Using arrays methods and callback functions

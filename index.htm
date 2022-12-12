@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <nav class = "nav-bar">
+        <h1>Shopping List</h1>
+    </nav>
+    <main class = "main-container">
+        <form class = "add-item-form" id = "addForm">
+            <label for = "#item-input">Add item</label>
+            <input id="item-name" class = "add-item-input" type = "text" required placeholder ="Item name">
+            <input id = "add-btn" class = "add-button" type = "submit" value = "Add"> 
+        </form>
+
+        <ul class = "items-list" id = "shopping-list"></ul>
+
+        <hr />
+        
+    </main>
+    <footer class = "list-footer">
+        <strong>Exported CSV</strong>
+        <p id = "exported-list"></p>
+    </footer>
+    <script src="scripts/index.js" type ="module"></script>
+</body>
+</html>
